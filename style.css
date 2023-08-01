@@ -17,7 +17,7 @@
 }
 
 body {
-    width: 100%;
+    width: 100dvh;
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 13px;
     padding: 30px;
@@ -96,6 +96,10 @@ p {
     color: var(--Very-dark-blackish-blue);
 }
 
+.white-card-2 p {
+    color: var(--Very-dark-blackish-blue);
+}
+
 article {
     color: var(--Light-gray);
     opacity: 0.7;
@@ -104,10 +108,11 @@ article {
 
 @media screen and (max-width: 380px) {
     body {
-        width: 375px;
+        width: 380px;
         padding: 2.5px;
     }
     .design {
+        width: 375px;
         grid-template-columns: 375px;
         grid-template-rows: repeat(5, auto);
     }
